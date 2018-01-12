@@ -1,8 +1,7 @@
 language: python
 
 script:
-
-  - python regret-coin.py
+  - cat test.txt | python regret-coin.py
 
 
 install:
